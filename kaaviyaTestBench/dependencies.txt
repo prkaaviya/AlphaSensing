@@ -1,0 +1,31 @@
+Dependencies for AntPod GIS Modules:
+
+1. NUMPY
+conda install -c anaconda numpy
+
+2. MATPLOTLIB
+conda install -c conda-forge matplotlib
+
+3. SEABORN 
+conda install -c anaconda seaborn
+
+4. PANDAS
+conda install -c conda-forge pandas
+
+5. RASTERIO
+conda install -c conda-forge rasterio
+
+6. GEOPANDAS
+conda install -c conda-forge geopandas
+
+7. PLOTLY
+conda install -c conda-forge plotly
+
+8. RASTERSTATS
+conda install -c conda-forge rasterstats
+
+9. GEOJSON
+conda install -c conda-forge geojson
+
+10. EARTH ENGINE
+conda install -c conda-forge earthengine-api

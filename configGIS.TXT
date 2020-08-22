@@ -1,0 +1,20 @@
+User configurations that are prone to change :
+
+userID = "APX00001"
+mapConfig = "XX" 
+sensor = ["L2A","L1C"]
+
+Back end constant configuration parameters - antpodProd :
+
+antpodL2ABands = "BANDS"
+antpodL2ATC = "TC"
+antpodL2AVI2 = "VI2"
+antpodL2AVI = "VI"
+
+List of names of products and bands :
+
+listProdVI2 = ['NDVI','GNDVI','PSRI','NDCI']
+listProdVI = ['EVI','SAVI','ARVI']
+listS2Bands = ['B1','B2','B3','B4','B5','B6','B7','B8','B8A','B9','B11','B12']
+listS2Indices = ['NDVI', 'GNDVI', 'MCARI', 'ARVI', 'LNDWI', 'BNDWI', 'MSI', 
+                 'NDII', 'NBR', 'NDCI', 'NDSI', 'SAVI', 'PSRI', 'EVI']
