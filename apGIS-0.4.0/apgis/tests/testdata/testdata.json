@@ -1,0 +1,1925 @@
+{
+  "testData": {
+    "apversion": {
+      "version": "v0.3.0-epsilon",
+      "data": {
+        "VersionTags": [
+          {
+            "tag": "v0.3.0",
+            "major": "0",
+            "minor": "3",
+            "patch": "0",
+            "channel": "",
+            "numericVersion": "0.3.0",
+            "fullVersion": "v0.3.0"
+          },
+          {
+            "tag": "v1.6.8-stable",
+            "major": "1",
+            "minor": "6",
+            "patch": "8",
+            "channel": "stable",
+            "numericVersion": "1.6.8",
+            "fullVersion": "v1.6.8-stable"
+          },
+          {
+            "tag": "2.1.33-canary",
+            "major": "2",
+            "minor": "1",
+            "patch": "33",
+            "channel": "canary",
+            "numericVersion": "2.1.33",
+            "fullVersion": "v2.1.33-canary"
+          }
+        ],
+        "BadVersionTags": [
+          "26903",
+          "V66655",
+          "version5",
+          "v0.4"
+        ]
+      }
+    },
+    "apconfig": {
+      "data": {
+        "SatIDs": [
+          "S2",
+          "L8"
+        ],
+        "SensorIDs": [
+          "L1C",
+          "L2A",
+          "L8SR"
+        ],
+        "SatSensorPairs": [
+          {
+            "Sat": "S2",
+            "Sensor": "L2A"
+          },
+          {
+            "Sat": "S2",
+            "Sensor": "L1C"
+          },
+          {
+            "Sat": "L8",
+            "Sensor": "L8SR"
+          }
+        ],
+        "BadIDs": [
+          "L1",
+          "Y87",
+          "56H",
+          "G7"
+        ],
+        "SensorProducts": {
+          "L2A": {
+            "BASE": [
+              "B1",
+              "B2",
+              "B3",
+              "B4",
+              "B5",
+              "B6",
+              "B7",
+              "B8",
+              "B8A",
+              "B9",
+              "B11",
+              "B12",
+              "AOT",
+              "WVP",
+              "SCL",
+              "TCI_R",
+              "TCI_G",
+              "TCI_B",
+              "MSK_CLDPRB",
+              "MSK_SNWPRB",
+              "QA10",
+              "QA20",
+              "QA60"
+            ],
+            "BANDS": [
+              "B1",
+              "B2",
+              "B3",
+              "B4",
+              "B5",
+              "B6",
+              "B7",
+              "B8",
+              "B8A",
+              "B9",
+              "B11",
+              "B12"
+            ],
+            "B1": [
+              "B1"
+            ],
+            "B2": [
+              "B2"
+            ],
+            "B3": [
+              "B3"
+            ],
+            "B4": [
+              "B4"
+            ],
+            "B5": [
+              "B5"
+            ],
+            "B6": [
+              "B6"
+            ],
+            "B7": [
+              "B7"
+            ],
+            "B8": [
+              "B8"
+            ],
+            "B8A": [
+              "B8A"
+            ],
+            "B9": [
+              "B9"
+            ],
+            "B11": [
+              "B11"
+            ],
+            "B12": [
+              "B12"
+            ],
+            "TC": [
+              "TCI_R",
+              "TCI_G",
+              "TCI_B"
+            ],
+            "RGB": [
+              "B4",
+              "B3",
+              "B2"
+            ],
+            "QA": [
+              "QA10",
+              "QA20",
+              "QA60"
+            ],
+            "SCL": [
+              "SCL"
+            ],
+            "WI": [
+              "NDMI",
+              "NDWI"
+            ],
+            "WIX": [
+              "NDMI",
+              "NDWI",
+              "NDGI",
+              "NDSI"
+            ],
+            "VI": [
+              "NDVI",
+              "SAVI",
+              "AVI",
+              "EVI",
+              "ARVI"
+            ],
+            "VIX": [
+              "NDVI",
+              "SAVI",
+              "AVI",
+              "EVI",
+              "ARVI",
+              "GNDVI",
+              "NDCI",
+              "NPCRI",
+              "PSRI"
+            ],
+            "VXX": [
+              "NDVI",
+              "SAVI",
+              "AVI",
+              "EVI",
+              "ARVI",
+              "GNDVI",
+              "NDCI",
+              "NPCRI",
+              "PSRI",
+              "BSI",
+              "NDMI",
+              "NDWI"
+            ],
+            "NDVI": [
+              "NDVI"
+            ],
+            "SAVI": [
+              "SAVI"
+            ],
+            "AVI": [
+              "AVI"
+            ],
+            "EVI": [
+              "EVI"
+            ],
+            "ARVI": [
+              "ARVI"
+            ],
+            "GNDVI": [
+              "GNDVI"
+            ],
+            "NDCI": [
+              "NDCI"
+            ],
+            "NPCRI": [
+              "NPCRI"
+            ],
+            "PSRI": [
+              "PSRI"
+            ],
+            "BSI": [
+              "BSI"
+            ],
+            "NDWI": [
+              "NDWI"
+            ],
+            "NDMI": [
+              "NDMI"
+            ],
+            "NDGI": [
+              "NDGI"
+            ],
+            "NDSI": [
+              "NDSI"
+            ],
+            "NBRI": [
+              "NBRI"
+            ],
+            "SI": [
+              "SI"
+            ],
+            "MCARI": [
+              "MCARI"
+            ]
+          },
+          "L1C": {
+            "BASE": [
+              "B1",
+              "B2",
+              "B3",
+              "B4",
+              "B5",
+              "B6",
+              "B7",
+              "B8",
+              "B8A",
+              "B9",
+              "B10",
+              "B11",
+              "B12",
+              "QA10",
+              "QA20",
+              "QA60"
+            ],
+            "BANDS": [
+              "B1",
+              "B2",
+              "B3",
+              "B4",
+              "B5",
+              "B6",
+              "B7",
+              "B8",
+              "B8A",
+              "B9",
+              "B11",
+              "B12"
+            ],
+            "B1": [
+              "B1"
+            ],
+            "B2": [
+              "B2"
+            ],
+            "B3": [
+              "B3"
+            ],
+            "B4": [
+              "B4"
+            ],
+            "B5": [
+              "B5"
+            ],
+            "B6": [
+              "B6"
+            ],
+            "B7": [
+              "B7"
+            ],
+            "B8": [
+              "B8"
+            ],
+            "B8A": [
+              "B8A"
+            ],
+            "B9": [
+              "B9"
+            ],
+            "B10": [
+              "B10"
+            ],
+            "B11": [
+              "B11"
+            ],
+            "B12": [
+              "B12"
+            ],
+            "RGB": [
+              "B4",
+              "B3",
+              "B2"
+            ],
+            "QA": [
+              "QA10",
+              "QA20",
+              "QA60"
+            ],
+            "WI": [
+              "NDMI",
+              "NDWI"
+            ],
+            "WIX": [
+              "NDMI",
+              "NDWI",
+              "NDGI",
+              "NDSI"
+            ],
+            "VI": [
+              "NDVI",
+              "SAVI",
+              "AVI",
+              "EVI",
+              "ARVI"
+            ],
+            "VIX": [
+              "NDVI",
+              "SAVI",
+              "AVI",
+              "EVI",
+              "ARVI",
+              "GNDVI",
+              "NDCI",
+              "NPCRI",
+              "PSRI"
+            ],
+            "VXX": [
+              "NDVI",
+              "SAVI",
+              "AVI",
+              "EVI",
+              "ARVI",
+              "GNDVI",
+              "NDCI",
+              "NPCRI",
+              "PSRI",
+              "BSI",
+              "NDMI",
+              "NDWI"
+            ],
+            "NDVI": [
+              "NDVI"
+            ],
+            "SAVI": [
+              "SAVI"
+            ],
+            "AVI": [
+              "AVI"
+            ],
+            "EVI": [
+              "EVI"
+            ],
+            "ARVI": [
+              "ARVI"
+            ],
+            "GNDVI": [
+              "GNDVI"
+            ],
+            "NDCI": [
+              "NDCI"
+            ],
+            "NPCRI": [
+              "NPCRI"
+            ],
+            "PSRI": [
+              "PSRI"
+            ],
+            "BSI": [
+              "BSI"
+            ],
+            "NDWI": [
+              "NDWI"
+            ],
+            "NDMI": [
+              "NDMI"
+            ],
+            "NDGI": [
+              "NDGI"
+            ],
+            "NDSI": [
+              "NDSI"
+            ],
+            "NBRI": [
+              "NBRI"
+            ],
+            "SI": [
+              "SI"
+            ],
+            "MCARI": [
+              "MCARI"
+            ]
+          },
+          "L8SR": {
+            "BASE": [
+              "B1",
+              "B2",
+              "B3",
+              "B4",
+              "B5",
+              "B6",
+              "B7",
+              "B10",
+              "B11",
+              "sr_aerosol",
+              "pixel_qa",
+              "radsat_qa"
+            ],
+            "BANDS": [
+              "B1",
+              "B2",
+              "B3",
+              "B4",
+              "B5",
+              "B6",
+              "B7",
+              "B10",
+              "B11"
+            ],
+            "B1": [
+              "B1"
+            ],
+            "B2": [
+              "B2"
+            ],
+            "B3": [
+              "B3"
+            ],
+            "B4": [
+              "B4"
+            ],
+            "B5": [
+              "B5"
+            ],
+            "B6": [
+              "B6"
+            ],
+            "B7": [
+              "B7"
+            ],
+            "B10": [
+              "B10"
+            ],
+            "B11": [
+              "B11"
+            ],
+            "RGB": [
+              "B4",
+              "B3",
+              "B2"
+            ],
+            "QA": [
+              "pixel_qa"
+            ],
+            "WI": [
+              "NDMI",
+              "NDWI"
+            ],
+            "WIX": [
+              "NDMI",
+              "NDWI",
+              "NDGI",
+              "NDSI"
+            ],
+            "VI": [
+              "NDVI",
+              "SAVI",
+              "AVI",
+              "EVI",
+              "ARVI"
+            ],
+            "VIX": [
+              "NDVI",
+              "SAVI",
+              "AVI",
+              "EVI",
+              "ARVI",
+              "GNDVI",
+              "NPCRI"
+            ],
+            "VXX": [
+              "NDVI",
+              "SAVI",
+              "AVI",
+              "EVI",
+              "ARVI",
+              "GNDVI",
+              "NPCRI",
+              "BSI",
+              "NDMI",
+              "NDWI"
+            ],
+            "NDVI": [
+              "NDVI"
+            ],
+            "SAVI": [
+              "SAVI"
+            ],
+            "AVI": [
+              "AVI"
+            ],
+            "EVI": [
+              "EVI"
+            ],
+            "ARVI": [
+              "ARVI"
+            ],
+            "GNDVI": [
+              "GNDVI"
+            ],
+            "NPCRI": [
+              "NPCRI"
+            ],
+            "BSI": [
+              "BSI"
+            ],
+            "NDWI": [
+              "NDWI"
+            ],
+            "NDMI": [
+              "NDMI"
+            ],
+            "NDGI": [
+              "NDGI"
+            ],
+            "NDSI": [
+              "NDSI"
+            ],
+            "NBRI": [
+              "NBRI"
+            ],
+            "SI": [
+              "SI"
+            ]
+          }
+        },
+        "RevisitTime": {
+          "S2": 5,
+          "L8": 16
+        },
+        "GEECollections": {
+          "L2A": "COPERNICUS/S2_SR",
+          "L1C": "COPERNICUS/S2",
+          "L8SR": "LANDSAT/LC08/C01/T1_SR"
+        }
+      }
+    },
+    "apexception": null,
+    "apconversion": {
+      "data": null,
+      "areaUnitConversion": {
+        "PASS": {
+          "SQM-SQKM": [
+            [
+              10000,
+              0.01
+            ],
+            [
+              7893249,
+              7.8932
+            ]
+          ],
+          "SQM-SQFT": [
+            [
+              100,
+              1076.391
+            ],
+            [
+              23784,
+              256008.8454
+            ]
+          ],
+          "SQM-HA": [
+            [
+              100,
+              0.01
+            ],
+            [
+              387274,
+              38.7274
+            ]
+          ]
+        },
+        "FAIL": {
+          "BADTYPE": [
+            [
+              "45",
+              "SQM",
+              "SQKM"
+            ],
+            [
+              "67.5",
+              "SQM",
+              "SQKM"
+            ],
+            [
+              "gid.5",
+              "SQM",
+              "SQKM"
+            ],
+            [
+              57,
+              "SQKM",
+              55
+            ],
+            [
+              384.66,
+              442,
+              "TY"
+            ]
+          ],
+          "BADUNIT": [
+            [
+              45,
+              "HA",
+              "KH"
+            ],
+            [
+              343.7,
+              "JK",
+              "HA"
+            ]
+          ],
+          "BADPAIR": [
+            [
+              56,
+              "ACRE",
+              "HA"
+            ],
+            [
+              234.66,
+              "SQYARD",
+              "SQMILE"
+            ]
+          ]
+        }
+      }
+    },
+    "gisgeodf": {
+      "data": {
+        "Common": {
+          "filepath": "testdata/commontest.geojson"
+        },
+        "Grid": [
+          {
+            "inpath": "testdata/maptest1.geojson",
+            "spacing": 0.0007,
+            "createpath": "testdata/maptest1_create.geojson",
+            "overlaypath": "testdata/maptest1_overlay.geojson",
+            "makepath": "testdata/maptest1_make.geojson",
+            "insertcolumns": {
+              "min": 0.0,
+              "max": 1.0
+            },
+            "insertpath": "testdata/maptest1_insert.geojson",
+            "droppath": "testdata/maptest1_drop.geojson"
+          },
+          {
+            "inpath": "testdata/maptest2.geojson",
+            "spacing": 0.0009,
+            "createpath": "testdata/maptest2_create.geojson",
+            "overlaypath": "testdata/maptest2_overlay.geojson",
+            "makepath": "testdata/maptest2_make.geojson",
+            "insertcolumns": {
+              "min": 0.0,
+              "max": 1.0,
+              "mean": 0.5
+            },
+            "insertpath": "testdata/maptest2_insert.geojson",
+            "droppath": "testdata/maptest2_drop.geojson"
+          }
+        ],
+        "BadColumns": {
+          "notdict": [
+            "[min, 0]",
+            "(mean, 0)"
+          ],
+          "notfound": [
+            "zone",
+            "green",
+            "potter"
+          ],
+          "invalidtype": [
+            1000,
+            "(x78d)"
+          ]
+        },
+        "Export": [
+          {
+            "filename": "testdata/output",
+            "type": "GeoJSON"
+          },
+          {
+            "filename": "testdata/output",
+            "type": "Shapefile"
+          }
+        ],
+        "GoodCRS": [
+          [
+            "EPSG:4326",
+            "EPSG:4326"
+          ],
+          [
+            "3857",
+            "EPSG:3857"
+          ],
+          [
+            "epsg:4326",
+            "EPSG:4326"
+          ]
+        ],
+        "BadCRS": [
+          "EPSG:100000x",
+          "EPSG:WRONG"
+        ]
+      }
+    },
+    "gisraster": {
+      "data": {
+        "indexint": [
+          1,
+          3,
+          6
+        ],
+        "outGeoDF": [
+          "testdata/rasterdf1_out.geojson",
+          "testdata/rasterdf2_out.geojson",
+          "testdata/rasterdf3_out.geojson"
+        ],
+        "tif": [
+          "testdata/APX00000-XX-L2A-VXX-2020-01-06.tif",
+          "testdata/APX00000-XX-L2A-VXX-2020-02-15.tif",
+          "testdata/APX00000-XX-L2A-VXX-2020-05-30.tif"
+        ],
+        "ghostTif": [
+          "abc.tif",
+          "not.tif"
+        ]
+      }
+    },
+    "apgeojson": {
+      "data": {
+        "GeoJSONfiles": [
+          {
+            "filepath": "testdata/geotest1.geojson",
+            "feature": {
+              "geometry": {
+                "coordinates": [
+                  [
+                    [
+                      80.059433,
+                      12.819752
+                    ],
+                    [
+                      80.056515,
+                      12.800084
+                    ],
+                    [
+                      80.078144,
+                      12.796234
+                    ],
+                    [
+                      80.085268,
+                      12.810295
+                    ],
+                    [
+                      80.084925,
+                      12.822179
+                    ],
+                    [
+                      80.07411,
+                      12.828205
+                    ],
+                    [
+                      80.059433,
+                      12.819752
+                    ]
+                  ]
+                ],
+                "type": "Polygon"
+              },
+              "properties": {
+                "antpod": {
+                  "mapConf": "XX",
+                  "userID": "APX11567"
+                },
+                "testText": "APX-TEST-75899"
+              },
+              "type": "Feature"
+            },
+            "rectBBOX": [
+              80.056515,
+              12.796234,
+              80.085268,
+              12.828205
+            ],
+            "polyBBOX": [
+              [
+                80.056515,
+                12.796234
+              ],
+              [
+                80.056515,
+                12.828205
+              ],
+              [
+                80.085268,
+                12.828205
+              ],
+              [
+                80.085268,
+                12.796234
+              ]
+            ],
+            "centroid": [
+              80.0708915,
+              12.8122195
+            ],
+            "coordinates": [
+              [
+                80.059433,
+                12.819752
+              ],
+              [
+                80.056515,
+                12.800084
+              ],
+              [
+                80.078144,
+                12.796234
+              ],
+              [
+                80.085268,
+                12.810295
+              ],
+              [
+                80.084925,
+                12.822179
+              ],
+              [
+                80.07411,
+                12.828205
+              ],
+              [
+                80.059433,
+                12.819752
+              ]
+            ],
+            "apfield": {
+              "mapConf": "XX",
+              "userID": "APX11567"
+            },
+            "address": {
+              "country": "India",
+              "country_code": "in",
+              "county": "Chengalpattu",
+              "postcode": "603203",
+              "state": "Tamil Nadu",
+              "state_district": "Chengalpattu district",
+              "suburb": "Guduvancheri",
+              "village": "Karayambedu"
+            },
+            "eeROI": {
+              "coordinates": [
+                [
+                  [
+                    80.056515,
+                    12.796234
+                  ],
+                  [
+                    80.085268,
+                    12.796234
+                  ],
+                  [
+                    80.085268,
+                    12.828205
+                  ],
+                  [
+                    80.056515,
+                    12.828205
+                  ],
+                  [
+                    80.056515,
+                    12.796234
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "eeAOI": {
+              "coordinates": [
+                [
+                  [
+                    80.059433,
+                    12.819752
+                  ],
+                  [
+                    80.056515,
+                    12.800084
+                  ],
+                  [
+                    80.078144,
+                    12.796234
+                  ],
+                  [
+                    80.085268,
+                    12.810295
+                  ],
+                  [
+                    80.084925,
+                    12.822179
+                  ],
+                  [
+                    80.07411,
+                    12.828205
+                  ],
+                  [
+                    80.059433,
+                    12.819752
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            }
+          },
+          {
+            "filepath": "testdata/geotest2.geojson",
+            "feature": {
+              "geometry": {
+                "coordinates": [
+                  76.959314,
+                  10.314666
+                ],
+                "type": "Point"
+              },
+              "properties": {
+                "antpod": {
+                  "mapConf": "XX",
+                  "userID": "APX87634"
+                },
+                "testText": "APX-TEST-256188"
+              },
+              "type": "Feature"
+            },
+            "rectBBOX": null,
+            "polyBBOX": null,
+            "centroid": [
+              76.959314,
+              10.314666
+            ],
+            "coordinates": [
+              76.959314,
+              10.314666
+            ],
+            "apfield": {
+              "mapConf": "XX",
+              "userID": "APX87634"
+            },
+            "address": {
+              "country": "India",
+              "country_code": "in",
+              "county": "Valparai",
+              "postcode": "642127",
+              "state": "Tamil Nadu",
+              "state_district": "Coimbatore district",
+              "town": "Valparai"
+            },
+            "eeROI": {
+              "coordinates": [
+                [
+                  [
+                    76.959314,
+                    10.315565886595149
+                  ],
+                  [
+                    76.95905852020216,
+                    10.315530071008318
+                  ],
+                  [
+                    76.95882337675924,
+                    10.315425475191873
+                  ],
+                  [
+                    76.95862728720144,
+                    10.315260425035502
+                  ],
+                  [
+                    76.95848586028383,
+                    10.315048058614154
+                  ],
+                  [
+                    76.95841035352126,
+                    10.314805280371534
+                  ],
+                  [
+                    76.9584067771113,
+                    10.314551415502482
+                  ],
+                  [
+                    76.95847541556653,
+                    10.314306671652883
+                  ],
+                  [
+                    76.95861080512014,
+                    10.314090530390342
+                  ],
+                  [
+                    76.95880216868741,
+                    10.313920196484759
+                  ],
+                  [
+                    76.9590342737453,
+                    10.313809228431928
+                  ],
+                  [
+                    76.9592886448361,
+                    10.31376645922321
+                  ],
+                  [
+                    76.95954503418112,
+                    10.313795293259883
+                  ],
+                  [
+                    76.95978303335384,
+                    10.31389343537147
+                  ],
+                  [
+                    76.95998369773915,
+                    10.31405307350543
+                  ],
+                  [
+                    76.96013105448752,
+                    10.314261500547955
+                  ],
+                  [
+                    76.96021337394272,
+                    10.314502125784745
+                  ],
+                  [
+                    76.96022410334092,
+                    10.314755795497456
+                  ],
+                  [
+                    76.96016238845286,
+                    10.315002317583899
+                  ],
+                  [
+                    76.96003314163326,
+                    10.315222068847204
+                  ],
+                  [
+                    76.95984665084437,
+                    10.315397557014418
+                  ],
+                  [
+                    76.95961776076052,
+                    10.315514813144
+                  ],
+                  [
+                    76.95936469112975,
+                    10.315564503579614
+                  ],
+                  [
+                    76.959314,
+                    10.315565886595149
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "eeAOI": {
+              "coordinates": [
+                76.959314,
+                10.314666
+              ],
+              "type": "Point"
+            }
+          }
+        ],
+        "BadGeoJSON": [
+          "testdata/geotest3.geojson"
+        ]
+      }
+    },
+    "apfield": {
+      "data": null
+    },
+    "apjsonio": {
+      "data": {
+        "JSONfiles": [
+          {
+            "filepath": "testdata/test1.json",
+            "testText": "APTEST111"
+          },
+          {
+            "filepath": "testdata/test2.json",
+            "testText": "APTEST757"
+          },
+          {
+            "filepath": "testdata/test3.json",
+            "testText": "APTEST4892"
+          }
+        ],
+        "GeoJSONfiles": [
+          {
+            "filepath": "testdata/geotest1.geojson",
+            "testText": "APX-TEST-75899"
+          },
+          {
+            "filepath": "testdata/geotest2.geojson",
+            "testText": "APX-TEST-256188"
+          },
+          {
+            "filepath": "testdata/geotest3.geojson",
+            "testText": "APX-TEST-W7922"
+          }
+        ],
+        "NonJSON": [
+          "nontest1.txt",
+          "testfail6.geojso",
+          "testnice.55",
+          "voldemort.jso",
+          "peach.lock",
+          "random.md"
+        ],
+        "ghostJSON": [
+          "mock.json",
+          "fake.json"
+        ],
+        "ghostGeoJSON": [
+          "mock.geojson",
+          "fake.geojson"
+        ],
+        "JSONdata": [
+          {
+            "filename": "testdata/jsonWriteOne.json",
+            "filepath": "testdata/jsonWriteOne.json",
+            "filetest": "APTESTW556",
+            "filedata": {
+              "type": "TESTWRITE",
+              "properties": {
+                "testText": "APTESTW556"
+              }
+            }
+          },
+          {
+            "filename": "testdata/jsonWriteTwo.json",
+            "filepath": "testdata/jsonWriteTwo.json",
+            "filetest": "APTESTX788",
+            "filedata": {
+              "type": "TESTWRITE",
+              "properties": {
+                "testText": "APTESTX788"
+              }
+            }
+          },
+          {
+            "filename": "testdata/jsonWriteThree",
+            "filepath": "testdata/jsonWriteThree.json",
+            "filetest": "APTESTG77",
+            "filedata": {
+              "type": "TESTWRITE",
+              "properties": {
+                "testText": "APTESTG77"
+              }
+            }
+          }
+        ],
+        "BadData": [
+          [
+            "fhgss"
+          ],
+          56,
+          "dss",
+          78.22
+        ]
+      }
+    },
+    "aprequestlist": {
+      "data": null,
+      "init": [
+        {
+          "sensor": "L2A",
+          "sat": "S2",
+          "reqList": [
+            "VI",
+            "SCL",
+            "TC"
+          ],
+          "reqBands": [
+            "NDVI",
+            "SAVI",
+            "AVI",
+            "EVI",
+            "ARVI"
+          ]
+        },
+        {
+          "sensor": "L1C",
+          "sat": "S2",
+          "reqList": [
+            "WIX",
+            "RGB",
+            "QA"
+          ],
+          "reqBands": [
+            "NDMI",
+            "NDWI",
+            "NDGI",
+            "NDSI"
+          ]
+        },
+        {
+          "sensor": "L8SR",
+          "sat": "L8",
+          "reqList": [
+            "NDVI",
+            "RGB",
+            "QA"
+          ],
+          "reqBands": [
+            "NDVI"
+          ]
+        }
+      ],
+      "BADINIT": [
+        [
+          [
+            "NDVI"
+          ],
+          "LG7"
+        ],
+        [
+          [
+            "FGI"
+          ],
+          "L2A"
+        ]
+      ]
+    },
+    "apdate": {
+      "data": {
+        "Dates": [
+          {
+            "isoString": "2020-08-10T03:45:18.385Z",
+            "epochMS": 1597031118385,
+            "dateString": "2020-08-10",
+            "year": "2020",
+            "month": "08",
+            "day": "10",
+            "timeString": "03:45:18",
+            "nextDay": "2020-08-11T03:45:18.385Z",
+            "deltas": {
+              "second": [
+                false
+              ],
+              "minute": [
+                false
+              ],
+              "hour": [
+                false
+              ],
+              "day": [
+                true,
+                2,
+                "2020-08-12T03:45:18.385Z"
+              ],
+              "week": [
+                false
+              ],
+              "month": [
+                true,
+                3,
+                "2020-11-10T03:45:18.385Z"
+              ],
+              "year": [
+                false
+              ]
+            },
+            "ee": null
+          },
+          {
+            "isoString": "1999-01-05T05:34:00.000Z",
+            "epochMS": 915514440000,
+            "dateString": "1999-01-05",
+            "year": "1999",
+            "month": "01",
+            "day": "05",
+            "timeString": "05:34:00",
+            "nextDay": "1999-01-06T05:34:00.000Z",
+            "deltas": {
+              "second": [
+                true,
+                10,
+                "1999-01-05T05:34:10.000Z"
+              ],
+              "minute": [
+                true,
+                25,
+                "1999-01-05T05:59:00.000Z"
+              ],
+              "hour": [
+                false
+              ],
+              "day": [
+                true,
+                7,
+                "1999-01-12T05:34:00.000Z"
+              ],
+              "week": [
+                false
+              ],
+              "month": [
+                true,
+                2,
+                "1999-03-05T05:34:00.000Z"
+              ],
+              "year": [
+                false
+              ]
+            },
+            "ee": null
+          },
+          {
+            "isoString": "1999-05-17T17:17:17.171Z",
+            "epochMS": 926961437171,
+            "dateString": "1999-05-17",
+            "year": "1999",
+            "month": "05",
+            "day": "17",
+            "timeString": "17:17:17",
+            "nextDay": "1999-05-18T17:17:17.171Z",
+            "deltas": {
+              "second": [
+                true,
+                33,
+                "1999-05-17T17:17:50.171Z"
+              ],
+              "minute": [
+                true,
+                45,
+                "1999-05-17T18:02:17.171Z"
+              ],
+              "hour": [
+                true,
+                5,
+                "1999-05-17T22:17:17.171Z"
+              ],
+              "day": [
+                true,
+                19,
+                "1999-06-05T17:17:17.171Z"
+              ],
+              "week": [
+                true,
+                7,
+                "1999-07-05T17:17:17.171Z"
+              ],
+              "month": [
+                true,
+                2,
+                "1999-07-17T17:17:17.171Z"
+              ],
+              "year": [
+                true,
+                6,
+                "2005-05-17T17:17:17.171Z"
+              ]
+            },
+            "ee": null
+          }
+        ],
+        "eeDates": [
+          {
+            "isoString": "2020-05-05T05:15:19.914Z",
+            "epochMS": 1588655719914,
+            "dateString": "2020-05-05",
+            "year": "2020",
+            "month": "05",
+            "day": "05",
+            "timeString": "05:15:19",
+            "nextDay": "2020-05-06T05:15:19.914Z",
+            "deltas": {
+              "second": [
+                true,
+                15,
+                "2020-05-05T05:15:34.914Z"
+              ],
+              "minute": [
+                true,
+                42,
+                "2020-05-05T05:57:19.914Z"
+              ],
+              "hour": [
+                false
+              ],
+              "day": [
+                true,
+                42,
+                "2020-06-16T05:15:19.914Z"
+              ],
+              "week": [
+                false
+              ],
+              "month": [
+                true,
+                5,
+                "2020-10-05T05:15:19.914Z"
+              ],
+              "year": [
+                true,
+                9,
+                "2029-05-05T05:15:19.914Z"
+              ]
+            },
+            "ee": {
+              "sensor": [
+                "L2A",
+                "L1C"
+              ],
+              "aoi": [
+                [
+                  80.056515,
+                  12.796234
+                ],
+                [
+                  80.056515,
+                  12.828205
+                ],
+                [
+                  80.085268,
+                  12.828205
+                ],
+                [
+                  80.085268,
+                  12.796234
+                ]
+              ]
+            }
+          },
+          {
+            "isoString": "2020-05-04T04:57:56.774Z",
+            "epochMS": 1588568276774,
+            "dateString": "2020-05-04",
+            "year": "2020",
+            "month": "05",
+            "day": "04",
+            "timeString": "04:57:56",
+            "nextDay": "2020-05-05T04:57:56.774Z",
+            "deltas": {
+              "second": [
+                true,
+                66,
+                "2020-05-04T04:59:02.774Z"
+              ],
+              "minute": [
+                true,
+                14,
+                "2020-05-04T05:11:56.774Z"
+              ],
+              "hour": [
+                true,
+                20,
+                "2020-05-05T24:57:56.774Z"
+              ],
+              "day": [
+                true,
+                35,
+                "2020-06-08T04:57:56.774Z"
+              ],
+              "week": [
+                true,
+                8,
+                "2020-06-29T04:57:56.774Z"
+              ],
+              "month": [
+                true,
+                1,
+                "2020-06-04T04:57:56.774Z"
+              ],
+              "year": [
+                true,
+                2,
+                "2022-05-04T04:57:56.774Z"
+              ]
+            },
+            "ee": {
+              "sensor": [
+                "L8SR"
+              ],
+              "aoi": [
+                [
+                  80.056515,
+                  12.796234
+                ],
+                [
+                  80.056515,
+                  12.828205
+                ],
+                [
+                  80.085268,
+                  12.828205
+                ],
+                [
+                  80.085268,
+                  12.796234
+                ]
+              ]
+            }
+          }
+        ],
+        "BadDates": [
+          "156-4377",
+          "AGH=879"
+        ]
+      }
+    },
+    "geebase": {
+      "data": {
+        "setup": [
+          {
+            "startDate": "2020-05-01",
+            "endDate": "2020-06-01",
+            "geoType": "Polygon",
+            "aoi": [
+              [
+                80.056515,
+                12.796234
+              ],
+              [
+                80.056515,
+                12.828205
+              ],
+              [
+                80.085268,
+                12.828205
+              ],
+              [
+                80.085268,
+                12.796234
+              ]
+            ],
+            "sensors": {
+              "L2A": {
+                "indexTest": [
+                  0,
+                  "COPERNICUS/S2_SR/20200505T045701_20200505T050605_T44PLV"
+                ],
+                "dateTest": {
+                  "date": "2020-05-25",
+                  "pids": [
+                    "COPERNICUS/S2_SR/20200525T045701_20200525T050552_T44PLV",
+                    "COPERNICUS/S2_SR/20200525T045701_20200525T050552_T44PMV"
+                  ]
+                },
+                "mosImage": {
+                  "date": "2020-05-25",
+                  "idProp": "PRODUCT_ID",
+                  "idString": "S2X_MSIL2A",
+                  "eeDate": {
+                    "type": "Date",
+                    "value": 1590364800000
+                  }
+                },
+                "mosCol": true
+              },
+              "L1C": {
+                "indexTest": [
+                  0,
+                  "COPERNICUS/S2/20200505T045701_20200505T050605_T44PLV"
+                ],
+                "dateTest": {
+                  "date": "2020-05-15",
+                  "pids": [
+                    "COPERNICUS/S2/20200515T045701_20200515T051007_T44PLV",
+                    "COPERNICUS/S2/20200515T045701_20200515T051007_T44PMV"
+                  ]
+                },
+                "mosImage": {
+                  "date": "2020-05-15",
+                  "idProp": "PRODUCT_ID",
+                  "idString": "S2X_MSIL1C",
+                  "eeDate": {
+                    "type": "Date",
+                    "value": 1589500800000
+                  }
+                },
+                "mosCol": false
+              },
+              "L8SR": {
+                "indexTest": [
+                  0,
+                  "LANDSAT/LC08/C01/T1_SR/LC08_142051_20200504"
+                ],
+                "dateTest": null,
+                "mosImage": {
+                  "date": "2020-05-04",
+                  "idProp": "LANDSAT_ID",
+                  "idString": "LC08_L1TP",
+                  "eeDate": {
+                    "type": "Date",
+                    "value": 1588550400000
+                  }
+                },
+                "mosCol": false
+              }
+            }
+          },
+          {
+            "startDate": "2020-06-01",
+            "endDate": "2020-07-01",
+            "geoType": "Polygon",
+            "aoi": [
+              [
+                80.056515,
+                12.796234
+              ],
+              [
+                80.056515,
+                12.828205
+              ],
+              [
+                80.085268,
+                12.828205
+              ],
+              [
+                80.085268,
+                12.796234
+              ]
+            ],
+            "sensors": {
+              "L2A": {
+                "indexTest": [
+                  0,
+                  "COPERNICUS/S2_SR/20200604T045701_20200604T050011_T44PLV"
+                ],
+                "dateTest": {
+                  "date": "2020-06-04",
+                  "pids": [
+                    "COPERNICUS/S2_SR/20200604T045701_20200604T050011_T44PLV",
+                    "COPERNICUS/S2_SR/20200604T045701_20200604T050011_T44PMV"
+                  ]
+                },
+                "mosImage": null,
+                "mosCol": false
+              },
+              "L1C": {
+                "indexTest": [
+                  0,
+                  "COPERNICUS/S2/20200604T045701_20200604T050011_T44PLV"
+                ],
+                "dateTest": null,
+                "mosImage": null,
+                "mosCol": false
+              },
+              "L8SR": {
+                "indexTest": [
+                  0,
+                  "LANDSAT/LC08/C01/T1_SR/LC08_142051_20200605"
+                ],
+                "dateTest": null,
+                "mosImage": null,
+                "mosCol": false
+              }
+            }
+          }
+        ],
+        "Invalid Mode": [
+          "S8",
+          "Landsat"
+        ]
+      }
+    },
+    "geespatial": {
+      "data": {
+        "Units": [
+          "SQKM",
+          "SQM",
+          "SQFT",
+          "SQMILE",
+          "SQYARD",
+          "HA",
+          "ACRE"
+        ],
+        "Invalid Units": [
+          "SQE",
+          "HACRE",
+          "1000"
+        ],
+        "Invalid Geometry": [
+          [
+            [
+              80.18521785736084,
+              13.037265104063923
+            ],
+            [
+              80.1866340637207,
+              13.038069928681702
+            ],
+            [
+              80.18692374229431,
+              13.038132642178336
+            ]
+          ],
+          [
+            [
+              80.18578380346297,
+              13.037900079548491
+            ],
+            [
+              80.18691301345824,
+              13.03766751670004
+            ],
+            [
+              80.18626123666763,
+              13.03693324380019
+            ],
+            [
+              80.18558531999588,
+              13.036896660751756
+            ]
+          ]
+        ],
+        "Geometry": [
+          {
+            "geotype": "Polygon",
+            "area": [
+              0.174,
+              174162.005,
+              1874664.223,
+              0.067,
+              208296.025,
+              17.416,
+              43.036
+            ],
+            "aoi": [
+              [
+                80.19296407699585,
+                13.03741143600734
+              ],
+              [
+                80.19663333892822,
+                13.03741143600734
+              ],
+              [
+                80.19663333892822,
+                13.041351913652576
+              ],
+              [
+                80.19296407699585,
+                13.041351913652576
+              ],
+              [
+                80.19296407699585,
+                13.03741143600734
+              ]
+            ]
+          },
+          {
+            "geotype": "Polygon",
+            "area": [
+              0.133,
+              132714.67,
+              1428528.821,
+              0.051,
+              158725.425,
+              13.271
+            ],
+            "aoi": [
+              [
+                80.18581867218018,
+                13.038414852716498
+              ],
+              [
+                80.18464922904968,
+                13.037165807338772
+              ],
+              [
+                80.18451511859892,
+                13.035754744306443
+              ],
+              [
+                80.18889248371124,
+                13.03507011452886
+              ],
+              [
+                80.1893001794815,
+                13.037897466483987
+              ],
+              [
+                80.18722414970398,
+                13.037620481490643
+              ],
+              [
+                80.18581867218018,
+                13.038414852716498
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "geetemporal": {
+      "data": {
+        "Invalid Sat": [
+          "S4",
+          "L6"
+        ],
+        "Datelist": [
+          [
+            "2020-05-05T05:15:19",
+            "2020-05-10T05:15:14",
+            "2020-05-15T05:15:21",
+            "2020-05-20T05:15:16",
+            "2020-05-25T05:15:22",
+            "2020-05-30T05:15:17"
+          ],
+          [
+            "2020-05-05T05:15:19",
+            "2020-05-10T05:15:14",
+            "2020-05-15T05:15:21",
+            "2020-05-20T05:15:16",
+            "2020-05-25T05:15:22",
+            "2020-05-30T05:15:17"
+          ],
+          [
+            "2020-05-04T04:57:56",
+            "2020-05-20T04:57:56"
+          ],
+          [
+            "2020-06-04T05:15:22",
+            "2020-06-09T05:15:18",
+            "2020-06-14T05:15:22",
+            "2020-06-19T05:15:18",
+            "2020-06-24T05:15:21",
+            "2020-06-29T05:15:18"
+          ],
+          [
+            "2020-06-04T05:15:22",
+            "2020-06-09T05:15:18",
+            "2020-06-14T05:15:22",
+            "2020-06-19T05:15:18",
+            "2020-06-24T05:15:21",
+            "2020-06-29T05:15:18"
+          ],
+          [
+            "2020-06-05T04:58:03",
+            "2020-06-21T04:58:12"
+          ]
+        ],
+        "Dateset": [
+          {
+            "acqDate": "2020-05-05T05:15:19.914Z",
+            "genDate": "2020-05-05T08:59:45.000Z"
+          },
+          {
+            "acqDate": "2020-05-05T05:15:19.914Z",
+            "genDate": "2020-05-05T08:02:22.000Z"
+          },
+          {
+            "acqDate": "2020-05-04T04:57:56.774Z",
+            "genDate": "2020-05-09T15:43:03.000Z"
+          },
+          {
+            "acqDate": "2020-06-04T05:15:22.485Z",
+            "genDate": "2020-06-04T09:43:20.000Z"
+          },
+          {
+            "acqDate": "2020-06-04T05:15:22.485Z",
+            "genDate": "2020-06-04T08:15:16.000Z"
+          },
+          {
+            "acqDate": "2020-06-05T04:58:03.385Z",
+            "genDate": "2020-06-08T19:51:21.000Z"
+          }
+        ]
+      }
+    }
+  }
+}
