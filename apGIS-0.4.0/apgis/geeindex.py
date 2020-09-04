@@ -152,7 +152,7 @@ def calculateNDWI_S2(image: ee.Image):
     Calculated using a normalized difference function. \n
         NDWI = (NIR - GREEN) / (NIR + GREEN)
     """
-    ndwi = image.normalizedDifference(['B3', 'B8']).rename('NDWI')
+    ndwi = image.normalizedDifference(['B8', 'B3']).rename('NDWI')
     return ndwi
 
 
@@ -333,7 +333,7 @@ def calculateNDWI_L8(image: ee.Image):
     Calculated using a normalized difference function. \n
         NDWI = (NIR - GREEN) / (NIR + GREEN)
     """
-    ndwi = image.normalizedDifference(['B3', 'B5']).rename('NDWI')
+    ndwi = image.normalizedDifference(['B5', 'B3']).rename('NDWI')
     return ndwi
 
 

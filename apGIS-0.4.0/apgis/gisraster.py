@@ -91,12 +91,12 @@ class Raster:
 
         try:
             metadataList = GeoTIFF.split('.')[0].split('-')
-            self.sensor = metadataList[4]
-            self.product = metadataList[5]
-            self.day = metadataList[8]
-            self.month = metadataList[7]
-            self.year = metadataList[6]
-            self.dateString = '-'.join(metadataList[6:8])
+            self.sensor = metadataList[-5]
+            self.product = metadataList[-4]
+            self.day = metadataList[-1]
+            self.month = metadataList[-2]
+            self.year = metadataList[-3]
+            self.dateString = '-'.join(metadataList[-3:-1])
             self.bandCount = self.raster.count
 
         except Exception as e:
