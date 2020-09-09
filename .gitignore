@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 archive/
 tiff/
-=======
-resource/tiff
-resource/archive
->>>>>>> 85240103204570c7c81ce8d9cf2dab79fab6d557
+remote-sensing/.ipynb_checkpoints
+remote-sensing/imagery
+.ipynb_checkpoints/
