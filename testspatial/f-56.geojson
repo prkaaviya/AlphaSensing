@@ -1,0 +1,103 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "userData": {
+      "userName": "Bhaskar",
+      "userPhone": "6126975749",
+      "userEmail": "bhaskar.8597@gmail.com",
+      "userHash": "0be528b1a3c794efd8ffead19ec64713",
+      "userID": "AP-demo000-0be528b1a3c794efd8ffead19ec64713",
+      "userAuth": "AP-demo000-0be528b1a3c794efd8ffead19ec64713-ec0lisorxbg0r9z4epzrof9s4oldq0n0yrhr1ym2amf3ha58ok6iszhd9pbjnfgkq8tws7z94f9rto7kcjkc30vtlg3ndbo5y55px976aw643gue0xjm5u9ccoimo3e7",
+      "userField": "242",
+      "apFieldID": "AP-demo000-0be528b1a3c794efd8ffead19ec64713-242"
+    },
+    "farmData": {},
+    "geography": {}
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.956879,
+              10.325612
+            ],
+            [
+              76.956654,
+              10.324535
+            ],
+            [
+              76.95675,
+              10.323817
+            ],
+            [
+              76.958145,
+              10.322931
+            ],
+            [
+              76.95881,
+              10.323701
+            ],
+            [
+              76.958542,
+              10.324757
+            ],
+            [
+              76.959937,
+              10.325548
+            ],
+            [
+              76.961664,
+              10.326488
+            ],
+            [
+              76.961149,
+              10.32824
+            ],
+            [
+              76.95999,
+              10.328251
+            ],
+            [
+              76.959454,
+              10.328293
+            ],
+            [
+              76.959207,
+              10.327638
+            ],
+            [
+              76.958992,
+              10.327153
+            ],
+            [
+              76.958574,
+              10.326931
+            ],
+            [
+              76.958091,
+              10.326931
+            ],
+            [
+              76.957855,
+              10.327026
+            ],
+            [
+              76.957362,
+              10.326498
+            ],
+            [
+              76.956879,
+              10.325612
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "request": {}
+}

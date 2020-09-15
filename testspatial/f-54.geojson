@@ -1,0 +1,67 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "userData": {
+      "userName": "Murali",
+      "userPhone": "9403760587",
+      "userEmail": "murali.0870@gmail.com",
+      "userHash": "151a11f0994d91a7f17b32e6d5b86013",
+      "userID": "AP-demo000-151a11f0994d91a7f17b32e6d5b86013",
+      "userAuth": "AP-demo000-151a11f0994d91a7f17b32e6d5b86013-yu7hubbyucvycn95936rm0xbfngzl5xxwmzoxccbayvt62gnj1jpq58mwnd1l0txow3qtekszrv1jnstqtqys5qvnugjemwo8yzdo1wpewibaz0o3d03yzitp5pwnhhc",
+      "userField": "755",
+      "apFieldID": "AP-demo000-151a11f0994d91a7f17b32e6d5b86013-755"
+    },
+    "farmData": {},
+    "geography": {}
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.070269,
+              12.754088
+            ],
+            [
+              80.069357,
+              12.750216
+            ],
+            [
+              80.071535,
+              12.749463
+            ],
+            [
+              80.072243,
+              12.748918
+            ],
+            [
+              80.073134,
+              12.74917
+            ],
+            [
+              80.072329,
+              12.753251
+            ],
+            [
+              80.072458,
+              12.753387
+            ],
+            [
+              80.072297,
+              12.754705
+            ],
+            [
+              80.070269,
+              12.754088
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "request": {}
+}

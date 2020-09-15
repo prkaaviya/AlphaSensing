@@ -1,0 +1,67 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "userData": {
+      "userName": "Senthil",
+      "userPhone": "7718109993",
+      "userEmail": "senthil.2678@gmail.com",
+      "userHash": "1494dfd6f29afbc31ddf4e35aeb61c83",
+      "userID": "AP-demo000-1494dfd6f29afbc31ddf4e35aeb61c83",
+      "userAuth": "AP-demo000-1494dfd6f29afbc31ddf4e35aeb61c83-w4gpssugf92ukz1ypgnci4oidaks9cmpywcumanwhkr5c7xpv98xh8q87hidt7kzki2b2fw6d52uvx64zxkynh5v1u6ll658mhqnok2d9id32fim8nzldvm6a0qu6dwy",
+      "userField": "930",
+      "apFieldID": "AP-demo000-1494dfd6f29afbc31ddf4e35aeb61c83-930"
+    },
+    "farmData": {},
+    "geography": {}
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.055163,
+              12.760408
+            ],
+            [
+              80.054326,
+              12.759676
+            ],
+            [
+              80.053886,
+              12.758598
+            ],
+            [
+              80.060045,
+              12.758619
+            ],
+            [
+              80.061107,
+              12.758504
+            ],
+            [
+              80.061321,
+              12.759592
+            ],
+            [
+              80.0588,
+              12.760335
+            ],
+            [
+              80.0585,
+              12.761046
+            ],
+            [
+              80.055163,
+              12.760408
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "request": {}
+}
