@@ -1,0 +1,31 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "userData": {
+      "userName": "Selvi",
+      "userPhone": "9396590912",
+      "userEmail": "selvi.0295@gmail.com",
+      "userHash": "4ff56f455effade67be360ecc38934f8",
+      "userID": "AP-demo000-4ff56f455effade67be360ecc38934f8",
+      "userAuth": "AP-demo000-4ff56f455effade67be360ecc38934f8-eikm5gkwumpgesrt58pgfcivl3abzobl43ssseqnfggrr4gjx3st8cwz0pcyhe4zcaor9yqt34emzl1zplc16yx8a7dl0ydkr3qj1ek5fl9tuvfrlyeduspv74gnoas8",
+      "userField": "026",
+      "apFieldID": "AP-demo000-4ff56f455effade67be360ecc38934f8-026"
+    },
+    "farmData": {},
+    "geography": {}
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.95218,
+          10.317463
+        ]
+      }
+    }
+  ],
+  "request": {}
+}

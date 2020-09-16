@@ -1,0 +1,31 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "userData": {
+      "userName": "Kanmani",
+      "userPhone": "0565078080",
+      "userEmail": "kanmani.8794@gmail.com",
+      "userHash": "8621bff93dab5534535f7d25251669af",
+      "userID": "AP-demo000-8621bff93dab5534535f7d25251669af",
+      "userAuth": "AP-demo000-8621bff93dab5534535f7d25251669af-78xtf5lf4eo4iq4jm5x6x8ounurmlopazykyjiylns5j8hazzmsn1gwueegjtwioamj2qce5enhcrvjnt5cvlr0bj7pyszym4qzjzu92q2ezog52m0pp6bulki7lumt9",
+      "userField": "418",
+      "apFieldID": "AP-demo000-8621bff93dab5534535f7d25251669af-418"
+    },
+    "farmData": {},
+    "geography": {}
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.058081,
+          12.756934
+        ]
+      }
+    }
+  ],
+  "request": {}
+}

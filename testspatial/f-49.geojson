@@ -1,0 +1,31 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "userData": {
+      "userName": "Anbu",
+      "userPhone": "5417499524",
+      "userEmail": "anbu.4451@gmail.com",
+      "userHash": "fb8459fb51896de9bb2c1a4c8b44566d",
+      "userID": "AP-demo000-fb8459fb51896de9bb2c1a4c8b44566d",
+      "userAuth": "AP-demo000-fb8459fb51896de9bb2c1a4c8b44566d-g00tt1429xpnzhnc931zsjpn2ytu6bqf9z3u9o36kyd6s1i5xdxolyn6lj4fhhh098gkamtibzfxx626ih2lbosmsjtfsmmpl21ad5cchhdsdqrqkcv683awry0hq7ex",
+      "userField": "951",
+      "apFieldID": "AP-demo000-fb8459fb51896de9bb2c1a4c8b44566d-951"
+    },
+    "farmData": {},
+    "geography": {}
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.069454,
+          12.813998
+        ]
+      }
+    }
+  ],
+  "request": {}
+}
