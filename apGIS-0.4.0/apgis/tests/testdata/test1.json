@@ -1,7 +1,0 @@
-{
-  "type": "TEST",
-  "properties": {
-    "head": "valid json",
-    "testText": "APTEST111"
-  }
-}
