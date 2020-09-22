@@ -1,0 +1,4 @@
+# AntPod Designs Pvt Ltd.
+# Version Lock that defines the version of the apGIS package.
+v0.4.3
+# GitHub Repository: antpod/GIS
